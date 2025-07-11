@@ -172,8 +172,15 @@ footer ul li a{
 }
 
 .Users-feedback{
-    background-color: antiquewhite;
     padding: 30px;
+}
+
+.Users-feedback-title{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
 }
 
 .user-items{
@@ -184,12 +191,8 @@ footer ul li a{
     
 }
 
-.Users-feedback-title{
-    text-align: center;
-}
-
 .user-item{
-    background-color: white;
+    border: 1px solid #F2EDED;
     width: 300px;
     padding: 20px;
     border-radius: 10px;
