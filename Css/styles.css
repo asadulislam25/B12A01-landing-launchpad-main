@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+}
+.header{
+    background-image: url('../Assets/Hero-bg.png');
+    width: 100%;
+    height: 700px;
+    padding-bottom: 120px;
+}
+
+.navbar{
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 120px;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 34px;
+}
+
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+.navbar h3{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: 34px;
+  color: #4E47FE;
+}
+
+.primary-btn{
+    font-size: 16px;
+    background-color: #4E47FE;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    border-style: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+}
+.banner{
+    height: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-title{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+    color: #252432;
+}
+
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 0px;
+} 
+.action-img{
+    border-radius: 30px;
+    
+}
+.productive-user{
+    background-color: #ebeaff;
+    border-radius: 15px;
+    margin: 50px 125px;
+    padding: 20px 100px;
+}
+.productive-user-title{
+    text-align: center;
+}
+.productive-user-contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.productive-user-contents h1{
+    color: #4E47FE;
+    font-size: 70px;
+}
+.productive-user-contents h1, p{
+    margin: 5px 0px;
+    padding: 0;
+}
+
+
+.git{
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    margin: 20px 0px;
+    padding: 50px 0px;
+}
+.git-form input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px; 
+    
+}
+.git-btn{
+    width: 100%;
+    color: white;
+    background-color: #4E47FE;
+    border-style: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    
+}
+footer{
+    text-align: center;
+}
+footer ul li{
+    list-style-type: none;
+    
+}
+footer ul li a{
+    text-decoration: none;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.Users-feedback{
+    background-color: antiquewhite;
+    padding: 30px;
+}
+
+.user-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    
+}
+
+.Users-feedback-title{
+    text-align: center;
+}
+
+.user-item{
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.user-detailes, h5, p{
+    margin: 8px 0px;
+    padding: 0;
+}
