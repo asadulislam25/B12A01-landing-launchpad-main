@@ -1,6 +1,7 @@
 body{
     margin: 0;
 }
+
 .header{
     background-image: url('../Assets/Hero-bg.png');
     width: 100%;
@@ -50,6 +51,15 @@ body{
     border-style: none;
     border-radius: 5px;
     padding: 15px 25px;
+    transition: transform .52s;
+}
+.primary-btn:hover{
+    background-color: goldenrod;
+    cursor: pointer;
+    font-size: 18px;
+    -ms-transform: scale(2.6);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 .banner{
     height: 450px;
@@ -184,6 +194,16 @@ label{
     border-style: none;
     border-radius: 5px;
     padding: 15px 25px;
+    transition: transform .52s;
+}
+
+.git-btn:hover{
+    background-color: goldenrod;
+    cursor: pointer;
+    font-size: 18px;
+    -ms-transform: scale(4.6);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 
