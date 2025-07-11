@@ -129,31 +129,81 @@ body{
 }
 /* end productive user section */
 
-.git{
+/* start git section */
+
+/* .git{
     background-color: beige;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 150px;
-    margin: 20px 0px;
-    padding: 50px 0px;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 50px 125px;
+    padding: 30px 0px;
 }
-.git-form input, textarea{
+.git-title{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    color: #000000;
+} */
+/* .git-form input, textarea{
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 5px; 
     
-}
-.git-btn{
+} */
+/* .git-btn{
     width: 100%;
     color: white;
     background-color: #4E47FE;
     border-style: none;
     border-radius: 5px;
     padding: 15px 20px;
-    
+} */
+
+
+.git{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 125px;
 }
+.git-title{
+    width: 528px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #000000;
+}
+.git-form{
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px; 
+}
+
+.git-form input{
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+}
+input::placeholder{
+    color: rgb(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+label{
+    color: #000000;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+
 footer{
     text-align: center;
 }
@@ -170,6 +220,8 @@ footer ul li a{
     align-items: center;
     gap: 30px;
 }
+
+/* start users feedback section */
 
 .Users-feedback{
     padding: 30px;
@@ -206,3 +258,4 @@ footer ul li a{
     margin: 8px 0px;
     padding: 0;
 }
+/* start users feedback section */
