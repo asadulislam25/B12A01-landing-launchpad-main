@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: rgb(78, 71, 254, 0.03);
 }
 /* header section start */
 .header{
@@ -217,6 +218,7 @@ label{
 
 /* start footer section */
 footer{
+    background-color: #ffffff;
     text-align: center;
     padding: 100px 0px;
 }
