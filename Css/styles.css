@@ -281,6 +281,7 @@ footer ul li a:hover{
 }
 
 .user-item{
+    background-color: #ffffff;
     border: 1px solid #F2EDED;
     width: 300px;
     padding: 20px;
@@ -296,3 +297,46 @@ footer ul li a:hover{
     padding: 0;
 }
 /* start users feedback section */
+
+/* start focus section */
+.focus{
+    width: 100%;
+}
+.focus-content{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 70px 125px;
+    padding: 50px;
+    border-radius: 15px;
+}
+.focus-content h1{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    border-style: none;
+    margin-bottom: 10px;
+    
+}
+.focus-content p{
+    font-size: 16px;
+    color: rgb(0, 0, 0, 0.5);
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border-style: none;
+    margin-bottom: 20px;
+    
+}
+.focus-content img{
+    margin: 15px 0px;
+    border-radius: 40px;
+
+}
+/* end */
