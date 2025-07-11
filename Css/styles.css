@@ -162,7 +162,6 @@ body{
     color: #000000;
 }
 .git-form{
-    
     width: 500px;
     padding: 10px;
     border-radius: 5px; 
@@ -201,8 +200,12 @@ label{
     font-style: normal;
     border-style: none;
     border-radius: 5px;
-    padding: 15px 25px;
+    padding: 15px;
     transition: transform .52s;
+}
+.submit{
+    width: 100%;
+    padding: 20px;
 }
 
 .git-btn:hover{
