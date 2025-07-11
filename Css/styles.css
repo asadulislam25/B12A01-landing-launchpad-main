@@ -88,32 +88,46 @@ body{
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     font-size: 24px;
-    color: rgb(37, 36, 50, 0.5);
+    color: rgba(37, 36, 50, 0.5);
 }
+/* style for productive user section */
 .productive-user{
-    background-color: #ebeaff;
+    background-color: rgba(78, 71, 254, 0.1);
     border-radius: 15px;
     margin: 50px 125px;
-    padding: 20px 100px;
+    padding: 30px 140px;
 }
 .productive-user-title{
     text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #252432;
 }
 .productive-user-contents{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 120px;
 }
 .productive-user-contents h1{
     color: #4E47FE;
-    font-size: 70px;
+    font-size: 80px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+.productive-user-contents p{
+    color: rgb(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
 .productive-user-contents h1, p{
     margin: 5px 0px;
     padding: 0;
 }
-
+/* end productive user section */
 
 .git{
     background-color: beige;
